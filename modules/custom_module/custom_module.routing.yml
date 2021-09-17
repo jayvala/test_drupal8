@@ -1,0 +1,7 @@
+customModule.render:
+  path: '/custom'
+   defaults:
+     _controller: '\Drupal\custom_module\Controller\customModuleControllerController::customModuleRender'
+     _title: 'Custom Module'
+   requirements:
+    _permission: 'access content'
