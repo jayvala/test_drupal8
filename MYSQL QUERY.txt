@@ -1,0 +1,19 @@
+1) SELECT CONCAT(first_name, ' ', last_name) AS first_name FROM employee WHERE age > 30;
+
+2) SELECT user();
+SELECT CURDATE();
+SELECT version();
+
+3) CREATE USER 'jay'@'localhost' IDENTIFIED BY 'password';
+
+4) SELECT * FROM students WHERE department = 'CS' OR department = 'IT';
+
+5) SELECT department FROM students ORDER BY age;
+
+7) SELECT DATEDIFF(now(), 'birth') as birth;
+
+8) SELECT name, birth, department FROM students WHERE department LIKE '%' (SELECT dept_name from department_block) '%';
+
+9) DELETE FROM students GROUP BY email HAVING COUNT(email) > 1;
+
+10) SELECT * FROM employee WHERE ;
